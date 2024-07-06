@@ -5,7 +5,7 @@ clc
 num_users = 3; 
 num_samples = 5; 
 
-data_dir = '/home/interstellar/DSP_proj/'; % Add your file path where the audio file is getting stored.
+data_dir = '/home/interstellar/DSP_proj/voice/'; % Add your file path where the audio file is getting stored.
 
 function record_sample(file_path)
     recObj = audiorecorder;

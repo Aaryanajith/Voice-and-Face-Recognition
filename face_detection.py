@@ -39,7 +39,7 @@ mtcnn.detect_box = MethodType(detect_box, mtcnn)
 known_distances = []
 
 ### load known faces
-saved_pictures = r"/home/interstellar/DSP_proj/"
+saved_pictures = r"/home/interstellar/DSP_proj/pictures"
 all_people_faces = {}
 
 # Define detection frequency 
@@ -123,7 +123,7 @@ while True:
  cv2.imshow("Real-time face recognition", frame)
 
  # Quit loop on ' ' key press
- if cv2.waitKey(1) == ord(' '):
+ if cv2.waitKey(1) == ord(''):
   break 
 
 # Calculate accuracy
